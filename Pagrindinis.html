@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+  <title>S&G Studija</title>
+  <link rel="icon" type="image/x-icon" href="1.jpg">
+  <style>
+    body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+  h1, h2 {
+    text-align: center;
+} 
+  </style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body style="background-color: rgb(43, 43, 43);color:white">
+  
+  
+  <div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="Pagrindinis.html">HOME</a>
+    <a href="Services.html">SERVICES</a>
+    <a href="Gallery.html">GALLERY</a>
+    <a href="Contacts.html">CONTACTS</a>
+  </div>
+  
+  <div id="main">
+    <div class="container2">
+      <img src="banner3.jpg" width="100%">
+      <div class="HOMEtxt">HOME</div>
+    </div>
+          <div3 class="box" style="position: sticky;margin-top:-20px;width: 100%;clear:left;">
+            
+          <div>
+                <img class="img2" style="left:5%;clear:left;" src="1.jpg" height="150px">
+                </div>
+            <div class="content-to-hide">
+              <div class="header" style="color: black; size:100%;">G.S. ART STUDIO</div>
+            </div>
+            <div>
+              <span id="one" class="menubtn" style="cursor:pointer;right:1%" onclick="openNav()">MENU&#9776;</span>
+              <span id="two" class="menubtn" style="cursor:pointer;right:1%" onclick="closeNav()">MENU&#9776;</span>
+            </div>
+            <div>
+              <div class="juosta2" style="width:100%"></div>
+              </div>
+            </div3>
+          
+          
+        
+ 
+  
+<script>
+  var o =document.getElementById("one");
+var to =document.getElementById("two");
+to.style.display = 'none';
+
+  function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+    document.getElementById("main").style.marginRight = "250px";
+    o.style.display = 'none';
+    to.style.display = '';
+  }
+  
+  function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+    document.getElementById("main").style.marginRight = "0";
+    o.style.display = '';
+    to.style.display = 'none';
+  }
+  </script>
+
+   <br> 
+<br>
+<div class="box" style="text-align:center;">
+   <div class="centruoja"><h1>Mano sukrtas Puslapis</h1></div>;
+    <form action="" method="post">
+        <input type="text">
+        <input type="password">
+        <input type="number">
+        <input type="date">
+        <input type="radio" id="htm" name="laluna" value="">
+        <label for="html"></label><br>
+    <form action="" method="post">
+        <input type="text" value="Mindaugas"size=20><br>
+        <input type="text" value="Grigalavicius" size="8"><br>
+        <input type="password"><br>
+        <input type="date"><br>
+        <input type="color"><br>
+        <input type="submit"><br>
+        <br>
+        <br>
+        <textarea cols="20"
+        rows="30"></textarea><br> 
+        <div class="centruoja"></div><h2>Paslaugos</h2>
+
+<h3>Interjero Dizainas</h3>
+   <p>Projektavimas</p>
+   <p>Atvaizdavimas</p>
+   <p>Medžiagų parnkimas</p>
+
+<h4>Nuotodos</h4>
+    <p>Atlikti Darbai</p>
+    <p>Vygdomi Darbai</p>
+    <p>Rekomenduojamos parduotuvės</p>
+
+    <div class="centruoja">
+<img src="Dog.jpg" height="119px" alt="Dog">
+<img src="hd1.jpg" height=119px width="auto" alt="Motociklas ">
+<img src="bigdog.jpg"  width=200px heght="auto"alt="">
+</div>
+</div>
+<footer class="container3" style="height:70px;width:100%;text-align:center;background-color: rgb(228, 229, 230);display:inline-block;position: relative;">
+  <p class="centered;">@CopyRights by Mindaugas Grigalavicius</p>
+</footer>
+</body>
+</html>
